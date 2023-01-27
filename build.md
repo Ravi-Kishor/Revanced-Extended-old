@@ -1,26 +1,30 @@
-CLI: revanced-cli-2.20.1-all.jar  
-Integrations: app-release-unsigned-v0.92.6.apk  
-Patches: revanced-patches-2.153.6.jar  
+CLI: revanced-cli-2.20.2-all.jar  
+Integrations: app-release-unsigned-v0.93.1.apk  
+Patches: revanced-patches-2.156.1.jar  
 
 YouTube
 ==
-- fix: double tap rewind does not work when swipe brightness is off https://github.com/inotia00/ReVanced_Extended/issues/133
-- fix: match icon style with native icon https://github.com/inotia00/revanced-patches/pull/5
-- fix: some fingerprints are broken
-- refactor(youtube/return-youtube-dislike): change mirror API
+- add `hide-snackbar` patch
+- remove ryd mirror api settings
+- remove fix video playback settings
+- remove `save-video-speed` settings
+- fix: some settings does not require a reboot dialog
+- fix: default video speed is not working (requires clean install) https://github.com/inotia00/ReVanced_Extended/issues/158
+- fix: double tap to forward buggy when volume gestures is turn off https://github.com/inotia00/ReVanced_Extended/issues/159
 - crowdin translation update
-`Azerbaijani`, `Belarusian`, `Bengali`, `French`, `German`, `Greek`, `Hindi`, `Hungarian`, `Italian`, `Japanese`, `Polish`, `Portuguese, Brazilian`, `Russian`, `Turkish`, `Ukrainian`
+`Arabic`, `Azerbaijani`, `Belarusian`, `Bengali`, `Brazilian`, `Chinese Simplified`, `French`, `German`, `Greek`, `Hungarian`, `Indonesian`, `Italian`, `Japanese`, `Polish`, `Portuguese, Brazilian`, `Portuguese`, `Russian`, `Slovak`, `Spanish`, `Turkish`, `Ukrainian`, `Vietnamese`
 
 YouTube Music
 ==
 - crowdin translation update
-`Bengali`
+`Azerbaijani`
 
 ETC
 ==
-- last update
+- add support YouTube v18.01.38
+- cleanup
 
-※ Compatible ReVanced Manager: v0.0.51 / v0.0.52
+※ Compatible ReVanced Manager: v0.0.53
 ※ If you want to contribute to the translation, refer bellow
 
 [Crowdin translation]

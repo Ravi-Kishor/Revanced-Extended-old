@@ -1,4 +1,4 @@
-CLI: revanced-cli-2.20.2-all.jar  
+CLI: revanced-cli-2.20.3-all.jar  
 Integrations: revanced-integrations-0.95.6-v0.95.6.apk  
 Patches: revanced-patches-2.159.6.jar  
 
@@ -27,7 +27,7 @@ ETC
 - [other countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube: 18.05.35  
+Music (arm-v7a): 5.43.55  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 

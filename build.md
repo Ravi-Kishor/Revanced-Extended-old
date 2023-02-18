@@ -57,6 +57,7 @@ Notice
 - [other countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
+YouTube: 18.06.35  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 

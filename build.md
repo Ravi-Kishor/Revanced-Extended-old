@@ -1,28 +1,27 @@
 CLI: revanced-cli-2.20.3-all.jar  
-Integrations: revanced-integrations-0.99.10-v0.99.10.apk  
-Patches: revanced-patches-2.164.10.jar  
+Integrations: revanced-integrations-0.99.12-v0.99.12.apk  
+Patches: revanced-patches-2.164.12.jar  
 
 YouTube
 ==
-- fix: `Hide community posts in home feed` does not work
-- refactor: logging improvements
-- refactor(hide-player-button-background): remove the background of the play button https://github.com/inotia00/ReVanced_Extended/issues/346#issuecomment-1446951341
-- refactor(return-youtube-dislike): improved segmented like/dislike layout
+- fix: hide community post in home and subscription page not working properly https://github.com/inotia00/ReVanced_Extended/issues/382
+- refactor(enable-old-quality-layout): match with the official ReVanced's source code https://github.com/inotia00/ReVanced_Extended/issues/377
+- refactor(litho): minor optimization
 - crowdin translation update
-`Arabic`, `Chinese Simplified`, `French`, `German`, `Greek`, `Indonesian`, `Italian`, `Japanese`, `Korean`, `Polish`, `Portuguese (Brazilian)`, `Russian`, `Spanish`, `Turkish`, `Vietnamese`
+`French`, `Greek`, `Japanese`
 
 
 YouTube Music
 ==
-- fix typo https://github.com/inotia00/ReVanced_Extended/issues/353
+- fix: incorrect description https://github.com/inotia00/ReVanced_Extended/issues/353
 - crowdin translation update
-`Chinese Simplified`, `French`, `Greek`, `Portuguese (Brazilian)`, `Turkish`
+`Indonesian`, `Polish`
 
 
 ETC
 ==
-- add suport YouTube v18.08.37
-- drop support YouTube v18.08.34
+- drop support YouTube v18.08.36
+
 
 ※ Compatible ReVanced Manager: v0.0.56
 ※ If you want to contribute to the translation, refer below

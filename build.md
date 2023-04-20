@@ -1,24 +1,30 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.101.36-v0.101.36.apk  
-Patches: revanced-patches-2.168.36.jar  
+Integrations: revanced-integrations-0.102.2-v0.102.2.apk  
+Patches: revanced-patches-2.168.42.jar  
 
 YouTube
 ==
-- fix(default-video-speed): `Disable video speed in live stream` does not work
-- rollback `video-id-hook` patch
+- change default video quality label https://github.com/inotia00/ReVanced_Extended/issues/751
+- feat(sponsorblock): skip to video highlight
+- fix(hide-time-stamp): player overlay button not working when `hide-time-stamp` is on
+- fix(hide-time-stamp): reboot dialog should not be shown
+- fix(sponsorblock): update HTTP user agent
+- fix(sponsorblock): wrong `video-id-hook` patch used https://github.com/inotia00/ReVanced_Extended/issues/777
+- refactor(return-youtube-dislike): matches official ReVanced's code
 - crowdin translation update
-`Chinese Simplified`, `Chinese Traditional`, `French`, `Greek`, `Italian`, `Japanese`, `Korean`, `Polish`, `Russian`, `Turkish`, `Vietnamese`
+`Arabic`, `Bulgarian`, `Chinese Simplified`, `Chinese Traditional`, `French`, `Greek`, `Indonesian`, `Italian`, `Japanese`, `Korean`, `Russian`, `Spanish`, `Turkish`, `Ukrainian`, `Vietnamese`
 
 
 YouTube Music
 ==
+- fix: amoled patch changes other areas to black color besides the flyout panel https://github.com/inotia00/ReVanced_Extended/issues/750
 - crowdin translation update
-`Vietnamese`
+`Chinese Traditional`, `Greek`, `Indonesian`, `Korean`, `Turkish`, `Vietnamese`
 
 
 ETC
 ==
-- add support YouTube v18.14.40
+- build: update dependencies
 
 
 ※ Compatible ReVanced Manager: v0.0.57
@@ -29,7 +35,7 @@ ETC
 - [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-Music (arm-v7a): 5.52.51  
+Music (arm-v7a): 5.53.50  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 

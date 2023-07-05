@@ -139,7 +139,7 @@ Known Issues
 
   
 **App Versions:**  
-Music (arm-v7a): 6.08.50  
+YouTube: 18.24.37  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 

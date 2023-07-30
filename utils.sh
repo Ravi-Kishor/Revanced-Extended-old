@@ -74,7 +74,7 @@ reset_template() {
 	mkdir -p ${MODULE_TEMPLATE_DIR}/bin/arm ${MODULE_TEMPLATE_DIR}/bin/arm64
 }
 
-wget -nv -O "$dlp" --header="$3" "$1" || return 1
+req() { wget -nv -O "$2" --header="$WGET_HEADER" "$1"; }
 log() { echo -e "$1  " >>build.md; }
 get_largest_ver() {
 	local max=0
